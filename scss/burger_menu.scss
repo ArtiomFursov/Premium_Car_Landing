@@ -1,0 +1,86 @@
+.nav-container,.container {
+    width: 95%;
+    max-width: 982px;
+    margin: 0 auto;
+    a{
+        text-decoration: none;
+    }
+   
+}
+.nav-bar {
+    width: 100%;
+}
+
+.nav-container {
+    overflow: hidden;
+   
+}
+@media (min-width: 1024px){
+.nav-container{
+    display: none;
+}
+}
+
+.nav-logo {
+    float: left;
+    display: block;
+    padding: 28px 10px;
+    font-weight: 600;
+}
+
+.nav-logo:hover {
+    color: #424242;
+}
+
+.nav-list {
+    float: right;
+  list-style:none;
+}
+
+.nav-list li {
+    float: left;
+}
+
+.nav-list li a {
+    display: block;
+    color: #f9f9f9;
+    padding: 20px 10px;
+    font-size: 1em;
+}
+
+.nav-list li a:hover {
+    color: #f9f9f9;
+    background: #757575;
+}
+
+.nav-menu{
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+.nav-menu{
+    color: #fff;
+    float: right;
+    display: block;
+    padding: 20px 10px;
+    cursor: pointer;
+    font-size: 35px;
+
+}
+.nav-list{
+float: left; 
+width: 100%;
+overflow: hidden;
+height: 0;
+
+}
+
+.nav-open{ height: auto; }
+
+.nav-list li {
+    width: 100%;
+}
+.nav-list li a{
+    text-align: center;
+}
+  
+}
